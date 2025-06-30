@@ -1,0 +1,15 @@
+Type: Compendium
+Package: B1
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: Analysis projects
+License: What license it uses
+Depends: 
+    installr,
+    pak,
+    remotes,
+    rmarkdown
+Encoding: UTF-8
+LazyData: true

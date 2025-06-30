@@ -1,0 +1,22 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+install.packages("rlang") 
+```
+
+```{r}
+#install.packages("installr")
+library(installr)
+
+# Uninstall rlang
+#remove.packages("rlang") 
+#Restart r console
+
+# Install rlang again
+install.packages("rlang", dependencies = TRUE)
+```
+

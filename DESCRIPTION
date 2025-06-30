@@ -7,9 +7,12 @@ Authors@R:
 Description: Analysis projects
 License: What license it uses
 Depends: 
+    holepunch,
     installr,
     pak,
     remotes,
     rmarkdown
+Remotes: 
+    karthik/holepunch
 Encoding: UTF-8
 LazyData: true

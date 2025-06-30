@@ -40,7 +40,7 @@ generate_badge() # This generates a badge for your readme.
 
 # And click on the badge or use the function below to get the build 
 # ready ahead of time.
-build_binder(B1)
+build_binder()
 
 ```
 #missed steps maybe tyring again

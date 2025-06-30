@@ -8,7 +8,15 @@ output: html_notebook
 ```{r}
 remotes::install_github("karthik/holepunch")
 ```
+# check dependencies
+```{r}
+install.packages("holepunch")
+
+```
+
+
 #check rlang version needed
+
 ```{r}
 pak::pkg_deps("holepunch")
 ```
@@ -40,7 +48,20 @@ generate_badge() # This generates a badge for your readme.
 
 # And click on the badge or use the function below to get the build 
 # ready ahead of time.
-build_binder(B1)
+build_binder()
 
 ```
+
+#take B1 out of  build_binder
+
+```{r}
+version
+```
+ update to pt 1
+```{r}
+install.packages("installr")
+library(installr)
+updateR()
+```
+ 
 

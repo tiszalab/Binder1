@@ -43,4 +43,8 @@ generate_badge() # This generates a badge for your readme.
 build_binder(B1)
 
 ```
+#missed steps maybe tyring again
+```{r}
+Rscript -e 'source("hello.R")'
+```
 

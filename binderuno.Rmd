@@ -22,7 +22,9 @@ packageVersion("rlang")
 #holepunch loaded next stepcomendium
 ```{r}
 library(holepunch)
-write_compendium_description(package = "B1", 
+holepunch::write_runtime()
+
+write_compendium_description(package = "Binder1", 
                              description = "Analysis projects")
 # to write a description, with dependencies. Be sure to fill in placeholder text
 
